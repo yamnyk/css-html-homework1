@@ -16,9 +16,8 @@
 }
 .hero_img{
     height: 100vh;
-    background: url("../img/top-img.jpg");
+    background: url("../img/top-img.jpg") center;
     background-size: cover;
-    background-position: center;
 }
 .container{
     width: 1200px;
