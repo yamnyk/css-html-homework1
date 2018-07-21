@@ -7,8 +7,9 @@
     margin: 0 auto;
 }
 .hero__menu{
+    width: fit-content;
     text-transform: uppercase;
-    margin: 2vw;
+    margin: 2vw auto;
 }
 .hero__menu a{
     text-decoration: none;
