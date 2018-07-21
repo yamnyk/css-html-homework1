@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.hero{
-
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 .hero__menu{
     text-transform: uppercase;
@@ -19,14 +20,11 @@
     background: url("../img/top-img.jpg") center;
     background-size: cover;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 .startedbutton{
     width: 192px;
     height: 51px;
     border-radius: 3px;
     text-transform: uppercase;
+    color: #fff;
     background-color: #16a085;
 }
