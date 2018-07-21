@@ -1,5 +1,6 @@
 @import "reset.css";
 *{
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,25 +13,26 @@
     background: url("../img/bg-gray.jpg ") center;
     background-size: cover;
 }
-.container h1,p{
+.content{
     color: #373737;
     text-align: center;
     margin: 3vh 0 0 0;
 }
-.hero__menu{
+.menu{
     text-transform: uppercase;
-    margin: 2vw auto;
-    text-align: center;
+    margin: 4vh auto;
 }
-.hero__menu a{
+.hero__menu-link {
     text-decoration: none;
     color: #16a085;
-    margin: 0 3vw;
+    margin: 0 5vh;
+    text-align: center;
 }
 .hero_img{
     /*text-align: center;*/
     /*min-width: 100%;*/
-    background: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/Roger_Pic._Ballet_Inbal._Paris._1962._Danses_d%27Isra%C3%ABl_P08.jpg") center;
+    /*background: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/Roger_Pic._Ballet_Inbal._Paris._1962._Danses_d%27Isra%C3%ABl_P08.jpg") center;*/
+    background: url("../img/top-img.jpg") center;
     height: 80vh;
     background-size: cover;
 }
@@ -43,5 +45,21 @@
     text-transform: uppercase;
     color: #fff;
     background-color: #16a085;
-    margin: 2vw 0;
+    margin: 2vh 0;
+}
+.divide-line{
+    color: #16a085;
+}
+.footer__menu{
+    text-align: left;
+}
+.footer__menu-member{
+    text-decoration: none;
+    color: #373737;
+    margin: 0 1vh;
+    text-align: left;
+}
+.footer-copyright{
+    color: #373737;
+    text-align: right;
 }
