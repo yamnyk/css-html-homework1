@@ -1,3 +1,4 @@
+@import "reset.css";
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +6,21 @@
 .container{
     width: 1059px;
     margin: 0 auto;
+    text-align: center;
 }
-.container h2,p{
+.bg-gray{
+    background: url("../img/bg-gray.jpg ") center;
+    background-size: cover;
+}
+.container h1,p{
     color: #373737;
     text-align: center;
     margin: 3vh 0 0 0;
 }
 .hero__menu{
-    width: fit-content;
     text-transform: uppercase;
     margin: 2vw auto;
+    text-align: center;
 }
 .hero__menu a{
     text-decoration: none;
@@ -22,13 +28,11 @@
     margin: 0 3vw;
 }
 .hero_img{
+    /*text-align: center;*/
+    /*min-width: 100%;*/
+    background: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/Roger_Pic._Ballet_Inbal._Paris._1962._Danses_d%27Isra%C3%ABl_P08.jpg") center;
     height: 80vh;
-    background: url("../img/top-img.jpg") center;
     background-size: cover;
-}
-.button-wrapper {
-    text-align: center;
-    margin: 2vh auto;
 }
 .startedbutton {
     font-size: 12px;
@@ -39,4 +43,5 @@
     text-transform: uppercase;
     color: #fff;
     background-color: #16a085;
+    margin: 2vw 0;
 }
